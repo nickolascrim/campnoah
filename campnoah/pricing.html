@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel='stylesheet' href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Camp NOAH</title>
+  </head>
+  <body>
+
+
+  <header class="header">
+
+    <nav class="top-nav">
+       <a href='index.html'><img class="nav-logo" src= "images/camp-noah.png" alt='Camp NOAH Logo'/></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Our story</a></li>
+          <li><a href="weekatcamp.html">A week at camp</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="/">FAQs</a></li>
+          <li><a href="https://www.facebook.com/groups/394038210660380/?ref=group_header" target="_blank">Connect on FB</a></li>
+        </ul>
+    </nav>
+
+    <nav class='mobile-nav'>
+        <a href='index.html'><img class="mobile-nav-logo" src= "/" alt='Camp NOAH Logo'/></a>
+
+        <span onclick="openNav()"><img class="mobile-nav-menu" src="images/menu.svg"/></span>
+    </nav>
+
+  </header>
+
+  <ul id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1>Menu</h1>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="/">Our story</a></li>
+    <li><a href="weekatcamp.html">A week at camp</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="/">FAQs</a></li>
+    <li><a href="https://www.facebook.com/groups/394038210660380/?ref=group_header" target="_blank">Connect on FB</a></li>
+
+  </ul>
+
+<main class="content">
+
+
+  <section class="section">
+
+    <div class="section_container pricing">
+
+    <h1 class="pricing_title">So... what does camp cost?</h1>
+    <p class="pricing_copy">
+      As a non-profit, we aren't in this for the money! Our misson is to provide a fun & safe summer camp at an affordable price. Prices are fair and we discount the cost when you send multiple campers. </p>
+
+    <div class="pricing_grid">
+      <div class="pricing_grid_item">
+        <h1>$225 </h1><h2>First camper</h2>
+      </div>
+      <div class="pricing_grid_item">
+        <h1>$215 </h1><h2>Second camper</h2>
+      </div>
+      <div class="pricing_grid_item">
+        <h1>$175 </h1><h2>Additional campers</h2>
+      </div>
+    </div>
+
+
+  </div>
+
+  </section>
+
+    <section class="section">
+
+      <div class="section_container pricing">
+
+      <h1 class="pricing_title">What is included?</h1>
+      <p class="pricing_copy">
+        The camper fees cover lodging Sunday-Friday night, use of the campsite's facilities and paid-staff, three meals per day (and snacks!), and supplies used throughout the week. The Camp NOAH staff are all volunteers and donate their time to run camp.  </p>
+
+    </div>
+
+    </section>
+
+
+  <section class="section">
+
+    <div class="section_container mailing">
+
+
+    <h1 class="mailing_title">Should we notify you when registration opens? </h1>
+    <p class="mailing_subtitle">Sign-up for our mailing list below and we'll shoot you an email!</p>
+
+    <form class="mailing_form_grid">
+      <input class="form_input" type="email" name="email" placeholder="Email address"/>
+      <input class="form_button" type="submit" value="Submit"/>
+
+    </form>
+
+
+    </div>
+
+  </section>
+
+
+<!--
+
+  <section class="section">
+
+    <div class="section_container form">
+
+
+    <h1 class="form_title">Register for camp</h1>
+
+      <form class="form_grid">
+
+        <input class="form_input" type="text" name="first-name" placeholder="First name" />
+
+        <input class="form_input" type="text" name="last-name" placeholder="Last name"/>
+
+        <input class="form_input" type="email" name="email" placeholder="Email address"/>
+
+        <input class="form_input" type="tel" name="phone" placeholder="Phone number" />
+
+        <input class="form_button" type="submit" value="Submit"/>
+
+      </form>
+
+    </div>
+  </section>
+
+-->
+
+
+</main>
+
+<footer>
+
+</footer>
+
+
+<div class="unsupported">
+  <p><strong>Sorry, this website uses features that your browser doesn’t support.</strong> Upgrade to a newer version of <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="nofollow noopener">Firefox</a>, <a href="https://www.google.com/chrome/" target="_blank" rel="nofollow noopener">Chrome</a>, <a href="https://support.apple.com/downloads/safari" target="_blank" rel="nofollow noopener">Safari</a>,or
+    <a href="https://www.microsoft.com/en-us/edge" target="_blank">Edge</a> and you’ll be all set.</p>
+</div>
+
+
+  <script>
+      /* Open the sidenav */
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    /* Close/hide the sidenav */
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+</body>
+</html>
